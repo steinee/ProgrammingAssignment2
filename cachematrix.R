@@ -15,7 +15,7 @@
 ## The stored invers is referenced by "inv" from the functions defined here using the <<- operator to reach
 ## the parent environmnet of the functions.
 
-makeCacheMatrix <- function(x){
+makeCacheMatrix <- function(x = matrix()){
   inv <- NULL
   set <- function(y) {
     x <<- y
